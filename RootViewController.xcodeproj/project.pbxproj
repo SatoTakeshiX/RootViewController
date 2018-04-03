@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		30E768492070BA4B00AB9333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E768482070BA4B00AB9333 /* AppDelegate.swift */; };
-		30E7684B2070BA4B00AB9333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7684A2070BA4B00AB9333 /* ViewController.swift */; };
+		30E7684B2070BA4B00AB9333 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7684A2070BA4B00AB9333 /* TabViewController.swift */; };
 		30E7684E2070BA4C00AB9333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E7684C2070BA4C00AB9333 /* Main.storyboard */; };
 		30E768502070BA4C00AB9333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E7684F2070BA4C00AB9333 /* Assets.xcassets */; };
 		30E768532070BA4C00AB9333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E768512070BA4C00AB9333 /* LaunchScreen.storyboard */; };
 		30E7685E2070BA4C00AB9333 /* RootViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7685D2070BA4C00AB9333 /* RootViewControllerTests.swift */; };
 		30E768692070BA4C00AB9333 /* RootViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E768682070BA4C00AB9333 /* RootViewControllerUITests.swift */; };
+		30E768772070BCC700AB9333 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E768762070BCC700AB9333 /* MainViewController.swift */; };
+		30E768792070BCE400AB9333 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E768782070BCE400AB9333 /* LoginViewController.swift */; };
+		30E7687B2070BCF100AB9333 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7687A2070BCF100AB9333 /* SettingViewController.swift */; };
+		30E7687D2070BD1100AB9333 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7687C2070BD1100AB9333 /* CameraViewController.swift */; };
+		30E768802070BDC700AB9333 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7687F2070BDC700AB9333 /* Router.swift */; };
+		30E768822070BDF200AB9333 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E768812070BDF200AB9333 /* RootViewController.swift */; };
+		30E768842070BEA300AB9333 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E768832070BEA300AB9333 /* SplashViewController.swift */; };
+		30E768862070C4C900AB9333 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E768852070C4C900AB9333 /* Login.storyboard */; };
+		30E768882070D49600AB9333 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E768872070D49600AB9333 /* Camera.storyboard */; };
+		30E7688A20711AF500AB9333 /* DeepLinkShortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7688920711AF500AB9333 /* DeepLinkShortcut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		30E768452070BA4B00AB9333 /* RootViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RootViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E768482070BA4B00AB9333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30E7684A2070BA4B00AB9333 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30E7684A2070BA4B00AB9333 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		30E7684D2070BA4C00AB9333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30E7684F2070BA4C00AB9333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30E768522070BA4C00AB9333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		30E768642070BA4C00AB9333 /* RootViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RootViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E768682070BA4C00AB9333 /* RootViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerUITests.swift; sourceTree = "<group>"; };
 		30E7686A2070BA4C00AB9333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E768762070BCC700AB9333 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		30E768782070BCE400AB9333 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		30E7687A2070BCF100AB9333 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		30E7687C2070BD1100AB9333 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		30E7687F2070BDC700AB9333 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		30E768812070BDF200AB9333 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		30E768832070BEA300AB9333 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		30E768852070C4C900AB9333 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		30E768872070D49600AB9333 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		30E7688920711AF500AB9333 /* DeepLinkShortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkShortcut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,14 @@
 		30E768472070BA4B00AB9333 /* RootViewController */ = {
 			isa = PBXGroup;
 			children = (
+				30E7687E2070BDA700AB9333 /* ViewController */,
 				30E768482070BA4B00AB9333 /* AppDelegate.swift */,
-				30E7684A2070BA4B00AB9333 /* ViewController.swift */,
+				30E7687F2070BDC700AB9333 /* Router.swift */,
 				30E7684C2070BA4C00AB9333 /* Main.storyboard */,
 				30E7684F2070BA4C00AB9333 /* Assets.xcassets */,
 				30E768512070BA4C00AB9333 /* LaunchScreen.storyboard */,
 				30E768542070BA4C00AB9333 /* Info.plist */,
+				30E7688920711AF500AB9333 /* DeepLinkShortcut.swift */,
 			);
 			path = RootViewController;
 			sourceTree = "<group>";
@@ -123,6 +145,22 @@
 				30E7686A2070BA4C00AB9333 /* Info.plist */,
 			);
 			path = RootViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		30E7687E2070BDA700AB9333 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30E768812070BDF200AB9333 /* RootViewController.swift */,
+				30E768832070BEA300AB9333 /* SplashViewController.swift */,
+				30E768782070BCE400AB9333 /* LoginViewController.swift */,
+				30E7684A2070BA4B00AB9333 /* TabViewController.swift */,
+				30E768762070BCC700AB9333 /* MainViewController.swift */,
+				30E7687A2070BCF100AB9333 /* SettingViewController.swift */,
+				30E7687C2070BD1100AB9333 /* CameraViewController.swift */,
+				30E768852070C4C900AB9333 /* Login.storyboard */,
+				30E768872070D49600AB9333 /* Camera.storyboard */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E768862070C4C900AB9333 /* Login.storyboard in Resources */,
 				30E768532070BA4C00AB9333 /* LaunchScreen.storyboard in Resources */,
 				30E768502070BA4C00AB9333 /* Assets.xcassets in Resources */,
 				30E7684E2070BA4C00AB9333 /* Main.storyboard in Resources */,
+				30E768882070D49600AB9333 /* Camera.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E7684B2070BA4B00AB9333 /* ViewController.swift in Sources */,
+				30E7687B2070BCF100AB9333 /* SettingViewController.swift in Sources */,
+				30E7688A20711AF500AB9333 /* DeepLinkShortcut.swift in Sources */,
+				30E768792070BCE400AB9333 /* LoginViewController.swift in Sources */,
+				30E768772070BCC700AB9333 /* MainViewController.swift in Sources */,
+				30E768842070BEA300AB9333 /* SplashViewController.swift in Sources */,
+				30E768802070BDC700AB9333 /* Router.swift in Sources */,
+				30E7684B2070BA4B00AB9333 /* TabViewController.swift in Sources */,
 				30E768492070BA4B00AB9333 /* AppDelegate.swift in Sources */,
+				30E768822070BDF200AB9333 /* RootViewController.swift in Sources */,
+				30E7687D2070BD1100AB9333 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
